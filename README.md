@@ -42,8 +42,8 @@ Por isso, desenvolveu-se um esquema de criptografia alternativo. Resumidamente, 
 1. Remetente criptografa a mensagem com um segredo compartilhado com o destinatário;
 2. Remetente envia a mensagem para o intermediário, informando o destinatário;
 3. Intermediário repassa a mensagem para o destinatário;
-4. Destinatário descriptografa a mensagem.
+4. Destinatário descriptografa a mensagem, e a lê.
 
 Perceba que, nesse esquema, mesmo que o intermediário armazenasse as mensagens, ele não conseguiria ler o conteúdo das mesmas, pois ele não tem acesso ao segredo utilizado. Possíveis vulnerabilidades – como o envio dos segredos para o intermediário, ou uma forma de se descriptografar as mensagens sem o conhecimento dos mesmos – poderiam ser utilizadas por *hackers* mal-intencionados.
 
-Por isso, é importante que os esquemas de criptografia utilizados sejam publicados em detalhes, como forma de se detectar e corrigir prematuramente possíveis vulnerabilidades. Mais informações sobre a criptografia do WhatsApp pode ser obtida [aqui](https://www.whatsapp.com/security/WhatsApp-Security-Whitepaper.pdf) (em inglês).
+Por isso, é importante que detalhes dos esquemas de criptografia utilizados sejam públicos, como forma de se detectar e corrigir prematuramente possíveis vulnerabilidades. Mais informações sobre a criptografia do WhatsApp, por exemplos, podem ser obtidas [aqui](https://www.whatsapp.com/security/WhatsApp-Security-Whitepaper.pdf) (em inglês).
