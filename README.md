@@ -1,4 +1,4 @@
-    Atenção: trabalho em andamento. Pode conter erros banais.
+    Atenção: trabalho em andamento. Pode conter erros.
 
 #Uma introdução à criptografia ponta a ponta
 Essa cartilha pretende auxiliar leigos, das mais diversas áreas de atuação – direito, jornalismo, ativismo, etc. – a entender os conceitos gerais e o funcionamento básico dos esquemas de criptografia ponta a ponta, usados, por exemplo, pelo WhatsApp (desde abril de 2016).
