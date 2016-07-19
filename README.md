@@ -16,5 +16,5 @@ A partir dessa definição, podemos extrair alguns conceitos úteis para a cript
 * **Confidencialidade das mensagens**: remetente e destinatário se comunicam de maneira sigilosa (isso é, sem que terceiros tenham acesso ao conteúdo das mensagens), mesmo quando usam um meio de comunicação inseguro (por exemplo, grampeado).
 * **Integridade das mensagens**: o destinatário tem fortes razões para crer que a mensagem não foi modificada (teve trechos adicionados, substituídos ou removidos) depois do envio por parte do remetente.
 * **Autenticação dos remetentes**: garantia *técnica*, por parte do destinatário, de que apenas o remetente poderia ter enviado a mensagem.
-* **Não-repúdio da mensagem**: garantia, *com valor jurídica*, de que apenas o rementente poderia ter enviado a mensagem.
+* **Não-repúdio das mensagens**: garantia, *com valor jurídico*, de que apenas o rementente poderia ter enviado a mensagem.
   * Perceba que alguns sistemas de criptografia, como o usado pelo WhatsApp, substituem-no tal mecanismo por um que não permite a verificação da autenticidade da mensagem por terceiros, conhecido como **negação plausível**.
