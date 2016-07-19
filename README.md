@@ -47,3 +47,9 @@ Por isso, desenvolveu-se um esquema de criptografia alternativo. Resumidamente, 
 Perceba que, nesse esquema, mesmo que o intermediário armazenasse as mensagens, ele não conseguiria ler o conteúdo das mesmas, pois ele não tem acesso ao segredo utilizado. Possíveis vulnerabilidades – como o envio dos segredos para o intermediário, ou uma forma de se descriptografar as mensagens sem o conhecimento dos mesmos – poderiam ser utilizadas por *hackers* mal-intencionados.
 
 Por isso, é importante que detalhes dos esquemas de criptografia utilizados sejam públicos, como forma de se detectar e corrigir prematuramente possíveis vulnerabilidades. Mais informações sobre a criptografia do WhatsApp, por exemplos, podem ser obtidas [aqui](https://www.whatsapp.com/security/WhatsApp-Security-Whitepaper.pdf) (em inglês).
+
+##Criptografia ponta a ponta sozinha garante segurança dos dados?
+
+**Não**! O WhatsApp, por exemplo, não criptografa as conversas armazenadas no aparelho – mas lê-las requeriria acesso físico ao aparelho. No entanto, há formas de se contornar a situação: criptografia do disco rígido, exigência de senha para acesso ao dispositivo, etc.
+
+Os **metadados** – ou seja, informações a respeito da natureza da mensagem, como identificadores dos destinatários, mas também data, hora, quantidade e tamanho individual das mensagens – também podem ser facilmente obtidos.
