@@ -1,9 +1,9 @@
     Atenção: trabalho em andamento. Pode conter erros.
 
-#Uma introdução à criptografia ponta a ponta
+# Uma introdução à criptografia ponta a ponta
 Essa cartilha pretende auxiliar leigos, das mais diversas áreas de atuação – direito, jornalismo, ativismo, etc. – a entender os conceitos gerais e o funcionamento básico dos esquemas de criptografia ponta a ponta, usados, por exemplo, pelo WhatsApp (desde abril de 2016).
 
-##O que é criptografia?
+## O que é criptografia?
 Segundo o dicionário [Michaelis](http://michaelis.uol.com.br/busca?r=0&f=0&t=0&palavra=criptografia), **criptografia** pode ser entendida como:
 > Arte ou processo de escrever em caracteres secretos ou em cifras; esteganografia.
 
@@ -17,13 +17,13 @@ A partir dessa definição, podemos extrair alguns conceitos úteis para a cript
 * **Integridade das mensagens**: o destinatário tem fortes razões para crer que a mensagem não foi modificada (teve trechos adicionados, substituídos ou removidos) depois do envio por parte do remetente.
 * **Autenticação dos remetentes**: garantia *técnica*, por parte do destinatário, de que apenas o remetente poderia ter enviado a mensagem.
 * **Não-repúdio das mensagens**: garantia, *com valor jurídico*, de que apenas o rementente poderia ter enviado a mensagem.
-  * Perceba que alguns esquemas de criptografia, como aquele usado pelo WhatsApp, substituem-no tal mecanismo por um que não permite a verificação da autenticidade da mensagem por terceiros, conhecido como **negação plausível**.
+* Perceba que alguns esquemas de criptografia, como aquele usado pelo WhatsApp, substituem-no tal mecanismo por um que não permite a verificação da autenticidade da mensagem por terceiros, conhecido como **negação plausível**.
 
 Como visto acima, a comunicação entre remetente e destinatário requer informações ou mecanismos aos quais apenas eles tenham acesso, denominados **segredos**.
 
 Matemática pode ser usada para se comprovar a inviabilidade de quebra dos esquemas de criptografia. Mas a matemática por trás dessas provas vai muito além do escopo dessa cartilha.
 
-##O que é criptografia ponta a ponta?
+## O que é criptografia ponta a ponta?
 Nos meios digitais, a comunicação entre remetente e destinatário passa por um intermediário – por exemplo, um servidor de e-mails ou um servidor do WhatsApp.
 
 Num esquema de criptografia que não seja criptografado ponta a ponta, o transporte das mensagens passa, resumidamente, pelas seguintes etapas:
@@ -48,7 +48,7 @@ Perceba que, nesse esquema, mesmo que o intermediário armazenasse as mensagens,
 
 Por isso, é importante que detalhes dos esquemas de criptografia utilizados sejam públicos, como forma de se detectar e corrigir prematuramente possíveis vulnerabilidades. Mais informações sobre a criptografia do WhatsApp, por exemplos, podem ser obtidas [aqui](https://www.whatsapp.com/security/WhatsApp-Security-Whitepaper.pdf) (em inglês).
 
-##Criptografia ponta a ponta sozinha garante segurança dos dados?
+## Criptografia ponta a ponta sozinha garante segurança dos dados?
 
 **Não**! O WhatsApp, por exemplo, não criptografa as conversas armazenadas no aparelho – mas lê-las requeriria acesso físico ao aparelho. No entanto, há formas de se contornar a situação: criptografia do disco rígido, exigência de senha para acesso ao dispositivo, etc.
 
